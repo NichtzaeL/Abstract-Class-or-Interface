@@ -12,7 +12,7 @@ Berikut adalah penjelasan detail mengenai konsep penting yang diimplementasikan 
 
 A. **Interface (`PaymentGateway.java`)**
 File ini bertindak sebagai kontrak untuk semua metode pembayaran. 
-- Karena setiap metode pembayaran (seperti E-Wallet dan Kartu Kredit) memiliki alur logika verifikasi yang sangat berbeda, kita menggunakan `interface`. 
+- Karena setiap metode pembayaran (seperti E-Wallet dan Kartu Kredit) memiliki alur logika verifikasi yang sangat berbeda, digunakanlah `interface`. 
 - Pendekatan ini memastikan bahwa setiap class yang menggunakannya wajib melakukan *override* pada method `processPayment()` dengan cara mereka masing-masing tanpa merusak struktur utama.
 
 B. **Abstract Class (`Transaction.java`)**
