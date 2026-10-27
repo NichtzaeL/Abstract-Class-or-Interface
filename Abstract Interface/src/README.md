@@ -5,7 +5,7 @@ Proyek ini adalah simulasi sistem transaksi digital yang berfokus pada pembelian
 
 ## 2. Class Diagram
 
-![Diagram Menyusul](./class_diagram.png)
+![Diagram Menyusul](./class_diagram.jpg)
 
 ## 3. Penjelasan Konsep Abstract dan Inheritance yang Diterapkan
 Berikut adalah penjelasan detail mengenai konsep penting yang diimplementasikan di dalam kode:
